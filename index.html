@@ -1,0 +1,147 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Kyle Marino</title>
+
+  <link rel="stylesheet" href="main.css">
+
+    <!-- Place your kit's code here -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <script src="https://kit.fontawesome.com/1b06c7d088.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+ <body> 
+ 	<div id = "imgCrop"> 
+		<img id = "backgroundImage" src="hexagon.svg">
+ 	</div> 
+	<div id = "boxContainer"> 
+		<div class = "PageBox" id = "mainBox"> 
+			<div class = "divCenter" id = "topBox">
+				<div id = "pictureCrop"> 
+					<img id = "picture" src="Kyle.jpg" class="profile-pic"> <
+				</div>
+				<div class = "TitleText" id = "mainTitle"> 
+					Kyle Marino
+					<div class = "SubtitleText" id = "mainSubtitle"> 
+						Electrical Engineering <br> University of Southern California, 2019 - 2022
+					</div>
+				</div>
+			</div>
+			<div class = "divCenter SubtitleText">
+				<ul class="list-unstyled contact-list">
+	                <li><i class="fa fa-envelope"></i>kmarino@usc.edu</li>
+	 				<li><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/kylemarino22/" target="_blank">LinkedIn</a></li>
+					<li><i class="fab fa-github"></i><a href="https://github.com/kylemarino22" target="_blank">GitHub</a></li>
+					<li><i class="fa fa-mobile-alt"></i>(650) 946-7854</a></li>
+					<li><i class="fa fa-scroll"></i><a href="resume_11-27-19.pdf" target="_blank">Resume</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class = "PageBox" id = "aboutBox"> 
+			<div class = "TitleText" id = "aboutTitle"> 
+				<i class="fa fa-user" id = "userIcon"></i>
+				About Me
+			</div>
+			<div class = "BodyText">
+				Hi, I'm Kyle! 
+				<br><br>
+				I'm a student at USC studying Electrical Engineering. I love working on personal projects–ranging from pure programming to math to physical builds as well. 
+				<br><br>
+				Outside of personal projects, I am also involved in USC's rocket propulsion lab. We are an undergraduate student laboratory that creates and tests experimental rocket technologies and propulsion hardware. Last year, we set the altitude record for an amatuer organization when we became <a class = "viewable-link" href="http://www.uscrpl.com/traveler-iv" target="_blank">the first group</a> to reach the Karman Line, the recognized boundary of space. I lead the FPGA team, where we are currently designing a high resolution data measurement unit.
+				<br><br>
+				In addition to engineering projects, I have been rock climbing for the last three years. I love climbing outdoors when I can, and also compete for the USC climbing team.
+				<br><br>
+				More of my accomplishments can be found on my <a class = "viewable-link" href="resume.pdf" target="_blank">resume</a>.
+			</div>
+
+		</div>
+
+		<div class = "PageBox" id = "personalBox">
+			<div class = "TitleText" id = "personalTitle">
+				<i class="fa fa-folder-open" id = "userIcon"></i>
+				Personal Projects
+			</div>
+			<div class = "BodyText">
+				Here are some of my favorite personal projects I have worked on over the years!
+				<br><br>
+				<a class = "viewable-link" href="https://github.com/kylemarino22/droneProject" target="_blank">Quadcopter</a><br>
+				Starting in 2016, I built my own self-stabilizing quadcopter entirely from scratch. It is powered by an Arduino Uno, and communicates with a Raspberry Pi to recieve flight commands. The drone self calibrates each moter via photoelectric encoders to ensure accurate thrust responses. It also uses a kalman filter to clean the IMU data to improve sensor reliability. While this is still an ongoing project, these features create an ultra-smooth final flight.
+				<br><br>
+				<a class = "viewable-link" href="https://github.com/kylemarino22/GameEngine" target="_blank">Physics and Rendering Engine</a><br>
+				This project is a 3D rigid-body physics engine written on top of a previous rendering engine that I built in Java. Once again, this is entirely written from scratch apart from the LWJGL API. The GPU accelerated collision engine uses a simple non-differential algorithm to determine point intersections, offering an improved performance over conventional approaches. This engine can model any 3D geometry with an estimated mass and inertia distribution given that the computer has adequate specifications. Here is a <a class = "viewable-link" href="https://youtu.be/uJYGmMbkCIs" target="_blank">demo</a> of some simulations.
+				<br><br>
+				<a class = "viewable-link" href="https://github.com/kylemarino22/equationSolver" target="_blank">EquationSolver</a><br>
+				EquationSolver is a Java program that can approximate imaginary solutions to almost analytical equation. It uses an approach inspired from the YouTube channel <a class = "viewable-link" href="https://www.youtube.com/watch?v=b7FxPsqfkOY" target="_blank">3blue1brown</a>. I developed my own library to handle complex number operations and designed a compiler that would parse a user-inputted equation into quickly executable instructions. This was an improvement that I thought of after designing a similar system for <a class = "viewable-link" href="https://somsed.solutions/" target="_blank">Somsed</a>. This program generates an image that describes the translation of the input space to the output space of the equation that it's solving.
+				<br><br>
+				<a class = "viewable-link" href="https://github.com/kylemarino22/terminalSplitter" target="_blank">TerminalSplitter</a><br>
+				TerminalSplitter is a GUI library written in C/C++ that splits the traditional command line program output into three separate windows. This was created to monitor and send separate commands to multiple processors for my drone project. Each window is multithreaded and runs independently from the other ones. This is designed to be easily implemented into any C/C++ program where splitting the terminal output is useful.
+				<br><br>
+				<a class = "viewable-link" href="https://pseudo-code.org/" target="_blank">PseudoCode</a><br>
+				Pseudo Code is an educational web application whose purpose is to introduce programming to novices in an easy-to-understand way using a English-to-code parser. It won the "Best Web Application" award in San Mateo Hacks hackathon in 2017.
+				<br><br>
+				<a class = "viewable-link" href="https://somsed.solutions/" target="_blank">Somsed</a><br>
+				Somsed is a web-based graphing calculator that can graph functions, solve systems of equations, row-reduce matrices, and perform statistical regressions.
+				<br><br>
+				<a class = "viewable-link" href="https://github.com/kylemarino22/Snake_Solver" target="_blank">Snake Solver</a><br>
+				Snake Solver is a brute force algorithm that runs a depth-first search over the solution space of the flash game <a class = "viewable-link" href="https://www.coolmathgames.com/0-snake-slider" target="_blank">Snake Slider</a>. This runs a full implementation of the flash game and can solve even the most complex levels in a few minutes. 
+				<br><br>
+				<a class = "viewable-link" href="https://github.com/kylemarino22/GameSelect" target="_blank">GameSelect</a><br>
+				GameSelect is a python program that selects the next board game to play based on player count, time, game rating, and when the game was last played. It also stores individual preferences from the webiste boardgamegeeks and factors those in as well. 
+
+			</div>
+		</div>
+
+		<div class = "PageBox" id = "skillsBox">
+			<div class = "TitleText" id = "skillsTitle">
+				<i class="fas fa-code" id = "userIcon"></i>
+				Skills
+			</div>
+			<div class = "skill-group"> 
+				<div class = "skill-header">Languages</div>
+				<div class = "pill">C</div>
+				<div class = "pill">C++</div>
+				<div class = "pill">Java</div>
+				<div class = "pill">Python</div>
+				<div class = "pill">Verilog</div>
+				<div class = "pill">Git</div>
+				<div class = "pill">Javascript</div>
+				<div class = "pill">Node.js</div>
+				<div class = "pill">HTML</div>
+				<div class = "pill">CSS</div>
+				<div class = "pill">Altium</div>
+				<div class = "pill">SQL</div>
+				<div class = "pill">MongoDB</div>
+				<div class = "pill">PHP</div>
+				<div class = "pill">Matlab</div>
+			</div>
+
+			<div class = "skill-group"> 
+				<div class = "skill-header">Design Experience</div>
+				<div class = "pill">Embedded Software Design</div>
+				<div class = "pill">Object Oriented Programming</div>
+				<div class = "pill">Digital Logic Design</div>
+				<div class = "pill">Version Control</div>
+				<div class = "pill">PCB Design</div>
+				<div class = "pill">UART</div>
+				<div class = "pill">I2C</div>
+				<div class = "pill">SPI</div>
+				<div class = "pill">Protocol Layer Design</div>
+				<div class = "pill">Data Processing</div>
+			</div>
+		</div>
+
+	</div>
+
+  </body>
+
+<!-- <body>
+  <script src="js/scripts.js"></script>
+</body> -->
+</html>

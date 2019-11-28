@@ -1,0 +1,225 @@
+html,body {
+  background-color: #F5F5F5;
+  position:relative;
+  width: 100vw;
+  height: 100vh;
+
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin:0px;
+
+  overscroll-behavior:none;
+}
+
+
+
+#backgroundImage {
+	width: 120vw;
+  	height: auto;
+  	margin-left: -100px;
+  	margin-top: -100px;
+  	position:fixed;
+
+}
+
+#imgCrop {
+	margin:0px;
+	width:100vw;
+	height: 100vh;
+	position:absolute;
+	overflow: hidden;
+
+}
+
+
+#boxContainer {
+	position:absolute;
+	width: 100vw;
+	height: auto;
+	margin-bottom: 40px;
+}
+
+.divCenter {
+	display: flex;
+  	justify-content: center;
+}
+
+#topBox {
+	margin-top: 10px;
+}
+
+.PageBox {
+	position:relative;
+	background-color: white;
+	width: 70vw;
+	height: auto;
+	margin: auto;
+	text-align: center;
+	-webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+	padding: 10px;
+	margin-top: 30px;
+
+}
+
+#aboutBox, #personalBox, #skillsBox {
+	margin-top:15px;
+}
+
+#mainTitle {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#aboutTitle, #personalTitle, #skillsTitle{
+	margin-top: 10px;
+}
+
+
+#pictureCrop {
+	width: 15vw;
+    height: 15vw;
+	position: relative;
+	overflow: hidden;
+    border-radius: 50%;
+
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.profile-pic {
+  	display: inline;
+	margin: auto;
+	height: 100%;
+	width: 100%;
+}
+
+.TitleText {
+	width:auto;
+	margin-left: 3vw;
+	text-align: left;
+	font-size: 30px;
+	font-weight: 900;
+
+}
+
+.SubtitleText {
+	font-size: 15px;
+	color: #475454;
+	font-weight: 900;
+
+}
+
+.list-unstyled {
+	display: flex;
+	list-style-type: none;
+	width: auto;
+}
+ul {
+	padding: 0;
+}
+
+li {
+	padding: 10px;
+	padding-bottom: 0px;
+}
+
+a:link, a:visited {
+	border: none;
+	color: #475454;;
+	text-align: center;
+	text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+a:hover, a:active {
+   text-decoration: underline;
+}
+
+.viewable-link:link, .viewable-link:visited {
+	border: none;
+	color: #59a9d1;;
+	text-align: center;
+	text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.viewable-link:hover, .viewable-link:active {
+   text-decoration: underline;
+}
+
+i.fa,
+i.fab  {
+  margin-right: 5px;
+  font-size: 15px;
+  vertical-align: center;
+  
+}
+
+#userIcon {
+	font-size:30px;
+}
+
+.horizontal-line {
+	background-color: #475454;
+	margin-left: 3vw;
+	width: calc(100% - 6vw);
+	height: 2px;
+	position:relative;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.BodyText {
+	text-align: left;
+	color: #475454;
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: 15px;
+	padding-left: 3vw;
+	padding-right: 3vw;
+	margin-bottom: 20px;
+	line-height: 1.5em;
+}
+
+.skill-group {
+	display: block;
+	justify-content: left;
+	text-align: left;
+	margin-top: 15px;
+	padding-left: 3vw;
+	padding-right: 3vw;
+	margin-bottom: 20px;
+	line-height: 1.5em;
+
+}
+
+.skill-header {
+	text-align: left;
+	font-size: 20px;
+	font-weight: 700;
+	color: #475454;
+	margin-bottom: 10px;
+}
+
+.pill {
+	background-color: #475454;
+	color: white;
+	padding: 3px 6px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 1px;
+    font-size: 15px;
+    margin-bottom: 3px;
+    position:relative;
+
+}
