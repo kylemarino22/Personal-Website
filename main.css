@@ -66,7 +66,7 @@ html,body {
 
 }
 
-#aboutBox, #personalBox, #skillsBox {
+#aboutBox, #personalBox, #skillsBox, #publicationBox{
 	margin-top:15px;
 }
 
@@ -76,7 +76,7 @@ html,body {
 	justify-content: center;
 }
 
-#aboutTitle, #personalTitle, #skillsTitle{
+#aboutTitle, #personalTitle, #skillsTitle, #publicationTitle{
 	margin-top: 10px;
 }
 
@@ -158,6 +158,7 @@ a:hover, a:active {
 }
 
 i.fa,
+i.fa-solid,
 i.fab  {
   margin-right: 5px;
   font-size: 15px;
